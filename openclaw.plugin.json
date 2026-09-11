@@ -51,7 +51,10 @@
       "feishu_wiki_space",
       "feishu_wiki_space_node",
       "feishu_task_section",
-      "feishu_ask_user_question"
+      "feishu_ask_user_question",
+      "feishu_im_bot_get_messages",
+      "feishu_im_bot_get_thread_messages",
+      "feishu_im_bot_search_messages"
     ]
   },
   "channelConfigs": {

@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest';
-import type { OpenClawPluginApi } from 'openclaw/plugin-sdk';
+import type { OpenClawPluginApi } from 'openclaw/plugin-sdk/core';
 import type { Client } from '@larksuiteoapi/node-sdk';
 import type { ConfiguredLarkAccount } from '../src/core/types';
 import { ToolClient } from '../src/core/tool-client';

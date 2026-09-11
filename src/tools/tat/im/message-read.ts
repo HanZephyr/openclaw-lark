@@ -7,7 +7,7 @@
  * POST /im/v1/messages/search 使用 filter，返回 items[].meta_data.message_id。
  */
 
-import type { OpenClawPluginApi } from 'openclaw/plugin-sdk';
+import type { OpenClawPluginApi } from 'openclaw/plugin-sdk/core';
 import { type Static, Type } from '@sinclair/typebox';
 import type { ToolClient } from '../../../core/tool-client';
 import type { ToolActionKey } from '../../../core/tool-scopes';
